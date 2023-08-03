@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BY SAM/VESPA</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@600&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(img/green-5124174_1280.jpg);
+        font-family: 'Ubuntu', sans-serif;
+        }
+      .left{
+        display: inline-block;
+        position: absolute;
+        left: 10px;
+        top: -15px;
+    }
+    .left img{
+        width: 137px;
+
+    }
+      .mid{
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+        
+    }
+      .right{
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 32px;
+    }
+    .btn{
+        font-family: 'Ubuntu', sans-serif;
+        margin: 0px 10px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 4px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgba(0, 255, 191, 0.295);
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+        font-size: 20px;
+    }
+    .navbar li a:hover{
+        background-color: rgba(0, 255, 191, 0.295);
+    }
+    .container{
+        float: right;
+        border: 2px solid white;
+        margin: 70px 50px;
+        padding: 20px 20px 20px 20px;
+        width: 25%;
+        border-radius: 20px;
+    }
+    .form input{
+        font-family: 'Ubuntu', sans-serif;
+        
+        color: black;
+        text-align: center;
+        display: block;
+        width: 55%;
+        padding: 6px;
+        font-style: bold;
+        font-size: 18px;
+        border: 2px solid black;
+        border-radius: 8px;
+        margin: 10px auto;
+
+    }
+    input::placeholder{
+        color: black;
+    }   
+    .container button{
+        display: block;
+        width: 23%;
+        margin: auto;
+    }
+    .container h1{
+        text-align: center;
+        font-size: 20px;
+        margin: 2px;
+    }
+    .quote{
+        font-size: 63px;
+        display: inline-block;
+        position: absolute;
+        top: 110px;
+        padding-left: 30px;
+    }
+    .jou{
+        font-size: 43px;
+        display: inline-block;
+        position: absolute;
+        top: 240px;
+        padding-left: 30px;
+    }
+    .jbp{
+        font-size: 55px;
+        display: inline-block;
+        position: absolute;
+        top: 300px;
+        padding-left: 30px;
+    }
+    
+</style>
+<body>
+    <header class="header">
+
+        <!--left box for logo-->
+        <div class="left">
+            <img src="img/logo.png" alt="">
+        
+        </div>
+         <!--for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">FEE</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+         <!--right for buttons-->
+        <div class="right">
+            <button class="btn">Phone Number</button>
+            <button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN US NOW</h1>
+        <form action="noaction.php">
+           <div class="form">
+            <input type="text" name="" id="" placeholder="Name">
+           </div>
+           <div class="form">
+            <input type="text" name="" id="" placeholder="Age">
+           </div>
+           <div class="form">
+            <input type="text" name="" id="" placeholder="Gender">
+           </div>
+           <div class="form">
+            <input type="text" name="" id="" placeholder="Locality">
+           </div>
+           <button class="btn">SUBMIT</button>
+        </form>
+    </div>
+    <!--Quote-->
+    <div class="quote">
+        <h3>START YOUR</h3>
+    </div>
+    <div class="jou">
+        <h3>FITNESS JOURNEY</h3>
+    </div>
+    <div class="jbp">
+        <h3>IN JABALPUR</h3>
+    </div>
+</body>
+</html>
